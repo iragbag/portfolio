@@ -5,9 +5,11 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: "UA-144040155-3",
+        id: "GTM-TPVQR76",
+        includeInDevelopment: true,
+        enableWebVitalsTracking: true,
       },
     },
     "gatsby-plugin-sitemap",

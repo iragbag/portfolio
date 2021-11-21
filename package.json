@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^4.2.0",
-    "gatsby-plugin-google-analytics": "^4.2.0",
+    "gatsby-plugin-google-tagmanager": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-sitemap": "^5.2.0",
     "react": "^17.0.1",

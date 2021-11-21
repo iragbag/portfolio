@@ -1,0 +1,37 @@
+.previous-experience {
+    margin:0 auto;
+}
+.body{
+    max-width:1200px;
+    margin:0 auto;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1em
+
+}
+
+.body .horizontal-line{
+    margin:2em auto;
+    max-width: 80%;
+    
+}
+
+
+.title-component{
+    display:flex;
+}
+
+.title-component > .left {
+    flex:25%;
+    margin:0 1em;
+}
+
+.title-component .left img { 
+    max-width:5em;
+    float:right;
+}
+
+.title-component > .right {
+    flex: 75%;
+    margin:0 1em;
+    
+}
