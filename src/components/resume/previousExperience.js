@@ -5,21 +5,27 @@ import * as styles from '../../styles/previousExperience.module.css'
 const PreviousExperience = ({ data, index }) => {
   return (
     <div className={styles.item}>
-        <div className={styles.itemTitle}> 
-            { data.companyName }
+        <div className={styles.title}> 
+           <a href= {data.companyURL}> {data.position} @ { data.companyName } </a>
             </div>
-        <div className={ styles.itemDuration }>
-            <span className={styles.itemDurationStart}>{ data.startTime }</span>
-            -
-            <span className={styles.itemDurationEnd}>{ data.endTime }</span>
+        <div className={ styles.duration }>
+            <span className={styles.durationStart}>{ data.startTime }</span> - <span className={styles.durationEnd}>{ data.endTime }</span>
         </div>
-        <div className={styles.descriptionItems}>
+        <div className={styles.highlights}>
             <ul>
-                {data.highlights.map((data) => 
-                    <li>{ data }</li>
+                {data.highlights.map((data,index) => 
+                    <li key={index}>{ data }</li>
                 )}
             </ul>
         </div>  
+        <div className={styles.projects}>
+            <div className={ styles.projectsTitle }>Project Highlights:</div>
+            <ul>
+                {data.projects.map((data,index) => 
+                    <li key={index}>{ data }</li>
+                )}
+            </ul>
+        </div>
     </div>
   )
 }

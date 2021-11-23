@@ -3,35 +3,41 @@
 }
 .body{
     max-width:1200px;
-    margin:0 auto;
+    margin:2em auto ;
     font-family:'Courier New', Courier, monospace;
     font-size:1em
+
 
 }
 
 .body .horizontal-line{
     margin:2em auto;
-    max-width: 80%;
-    
+    max-width: 100%;  
 }
 
-
-.title-component{
+.two-column {
     display:flex;
 }
 
-.title-component > .left {
+.two-column.left-align .left {
     flex:25%;
-    margin:0 1em;
+    padding:0 1em;
 }
 
-.title-component .left img { 
+.two-column.left-align .left img { 
     max-width:5em;
     float:right;
 }
 
-.title-component > .right {
+.two-column.left-align .right {
     flex: 75%;
-    margin:0 1em;
-    
+    padding:0 1em;   
+}
+
+.main-component .left{
+    border-right: 1px solid #aaa
+}
+
+footer span.disclaimer{
+    font-size: 8px;
 }

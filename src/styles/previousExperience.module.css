@@ -2,26 +2,23 @@
     color:red;
 }
 
-.itemTitle{ 
-    color: red;   
+.title{ 
+    font-size: 1.5em;   
+}
+
+.duration{
+    font-weight:bold;
+}
+.projectsTitle{
+    font-weight: bold
 }
 
 .item{
-    
+    border: 1px #cacaca ;
+    border-style: dashed ;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
 }
 
-.itemDuration{
 
-}
-
-.itemDurationStart{
-
-}
-
-.itemDurationEnd{
-
-}
-
-.descriptionItems{
-
-}

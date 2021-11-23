@@ -1,0 +1,18 @@
+{
+        "firstName":"Raghav",
+        "lastName":"Sharma",
+        "fullName":"Raghav Sharma",
+        "phoneNumber":{
+            "personal":"6478220490"
+        },
+        "email":{
+            "personal":"me@raghavsharma.ca",
+            "work":"raghav.sharma@shopify.com"
+        },
+        "address":{
+            "street":"171 Laruendale Avenue",
+            "city":"Keswick",
+            "state":"Ontario",
+            "closestWorkPlace":"Toronto"
+        }
+}

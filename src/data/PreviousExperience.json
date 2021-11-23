@@ -1,16 +1,60 @@
 {
    "data":[
        {
-       "companyName":"sample company",
-       "startTime":"Today",
-       "endTime":"Tomorrow",
-       "highlights":["I did X","I did Y","I Did Y"]
+       "position":"Digital Analytics Manager (Lead)",
+       "companyName":"Shopify",
+       "companyURL":"https://www.shopify.com",
+       "startTime":"November 2019",
+       "endTime":"Present",
+       "highlights":[
+        "The person responsible for bringing Digital Analytics as a craft at Shopify",
+        "Responsible for plan, defining and executed detailed measurement plans that allow the company to understand user behaviour across their marketing sites",
+        "Extended my expertise to lead a small team of both Digital Analytics Implementors and Digital Analysts",
+        "Structured and maintained the Tag Management solution",
+        "\"Enablement-first\" approach of support, helping teams across Shopify self-serve all parts of Analytics process, from tracking plan generation to pulling insights and reporting. "
+        ],
+       "projects":[
+        "Deploy the first iteration of cross domain tracking for Shopify's 50+ ccTLDs.",
+        "Deployed Tealium across 10+ surfaces allow a consistent tagging strategy to be deployed across the board.",
+        "Enhance the implementation of Google Analytics across Shopify's marketing, support and internal tool surfaces.",
+        "Lay the foundations of transition to an enterprise wide Google Analytics 4."
+       ]
        },
        {
-        "companyName":"sample company",
+        "position":"Senior Manager, Digital Analytics Implementations",
+        "companyURL":"https://www.bmo.com",
+        "companyName":"Bank of Montreal",
         "startTime":"Today",
         "endTime":"Tomorrow",
-        "highlights":["I did X","I did Y","I Did Y"]
+        "highlights":["I did X","I did Y","I Did Y"],
+        "projects":[]
+        },
+        {
+            "position":"Personalization Development Lead",
+            "companyURL":"https://www.bmo.com",
+            "companyName":"Bank of Montreal",
+            "startTime":"Today",
+            "endTime":"Tomorrow",
+            "highlights":["I did X","I did Y","I Did Y"],
+            "projects":[]
+        },
+        {
+        "position":"Experimentation Strategist",
+        "companyURL":"https://www.bmo.com",
+        "companyName":"Bank of Montreal",
+        "startTime":"Today",
+        "endTime":"Tomorrow",
+        "highlights":["I did X","I did Y","I Did Y"],
+        "projects":[]
+        },
+        {
+        "position":"Web Content Developer",
+        "companyURL":"https://www.shopify.com",
+        "companyName":"Bank of Montreal",
+        "startTime":"Today",
+        "endTime":"Tomorrow",
+        "highlights":["I did X","I did Y","I Did Y"],
+        "projects":[]
         }
     ]
 
