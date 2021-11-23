@@ -1,0 +1,39 @@
+.h1 {
+    color:red;
+}
+
+.item{
+    border: 1px #cacaca ;
+    border-style: dashed ;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.title{ 
+    font-size: 1.5em;   
+}
+
+.duration{
+    font-weight:bold;
+}
+
+.highlights{
+    font-weight:bold;
+}
+
+.projects{
+    font-weight:bold;
+}
+
+.durationStart{
+    font-weight:bold;
+}
+
+.durationEnd{
+    font-weight:bold;
+}
+
+.projectsTitle{
+    font-weight:bold;
+}
