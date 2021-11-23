@@ -2,7 +2,6 @@ import * as React from "react"
 import PreviousExperience from "../components/resume/previousExperience"
 import TitleComponent from "../components/resume/TitleComponent"
 import jsonData from "../data/PreviousExperience.json"
-import ContactMe from "../components/resume/ContactMe"
 import "../styles/index.css"
 import image from "../images/dexter_image.png"
 
@@ -22,7 +21,6 @@ const IndexPage = () => {
       <main>
         <div className="two-column left-align main-component">
           <div className="left">
-            <ContactMe page="index" />
           </div>
           <div className ="right">
             <div className="previous-experience">
