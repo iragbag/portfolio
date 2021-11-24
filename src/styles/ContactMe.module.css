@@ -1,0 +1,17 @@
+.container{
+    font-size:1.5em
+}
+
+.item > div:not(.social){
+    margin: 1em auto;
+}
+
+.social{
+    float:left;
+    margin-top:0;
+
+}
+.social img{
+    width: 2em;
+    margin-right:0.3em;
+}

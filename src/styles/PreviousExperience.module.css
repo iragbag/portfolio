@@ -1,13 +1,24 @@
 .h1 {
     color:red;
 }
-
+.container{
+    text-decoration: none;
+    color: #000;
+}
+.conatiner:visited{
+    text-decoration: none;
+    color: #000;
+}
+.item:hover{
+    box-shadow:0 0 10px 5px;
+}
 .item{
     border: 1px #cacaca ;
     border-style: dashed ;
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
+    box-shadow: 5px 10px;
 }
 
 .title{ 
@@ -16,14 +27,15 @@
 
 .duration{
     font-weight:bold;
+    padding-top:1em;
 }
 
 .highlights{
-    font-weight:bold;
+   font-weight:lighter; 
 }
 
 .projects{
-    font-weight:bold;
+    font-weight:lighter;   
 }
 
 .durationStart{
@@ -37,3 +49,4 @@
 .projectsTitle{
     font-weight:bold;
 }
+
