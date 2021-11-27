@@ -1,3 +1,38 @@
 .container{
     text-align: left;
+    display:flex;
+    margin:0 auto;
+    max-width: 75%;
+    
+}
+
+.bigName {
+    font-size:4em;
+    margin-bottom:10px;
+}
+
+.personalInformation{
+    margin:1em 0;
+    display: flex;
+}
+
+
+
+.verticallyCenter {
+    display: flex;
+    flex-direction: column ;
+}
+
+.left {
+    display:flex;
+    align-items: center;
+}
+.left img{
+    max-width: 15em;
+}
+
+
+.right .social img{
+    max-width:2em;
+    margin:0 0.5em;
 }

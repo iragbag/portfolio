@@ -4,8 +4,8 @@
 .body{
     max-width:1200px;
     margin:2em auto ;
-    font-family:'Courier New', Courier, monospace;
-    font-size:1em
+    font-family:'system-ui';
+    font-size:1em;
 
 
 }
@@ -20,19 +20,20 @@
 }
 
 .two-column.left-align .left {
-    flex:25%;
+    flex:20%;
     padding:0 1em;
 }
 
 .two-column.left-align .left img { 
-    max-width:5em;
+    max-width:8em;
     float:right;
 }
 
 .two-column.left-align .right {
-    flex: 75%;
+    flex: 80%;
     padding:0 1em;   
 }
+
 
 .main-component .left{
     border-right: 1px solid #aaa
