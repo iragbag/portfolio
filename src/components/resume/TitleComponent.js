@@ -18,7 +18,7 @@ const TitleComponent = () => {
             <div>
               Digital Analytics Professional, Architect, Implementor and Strategist
             </div>
-                <div class={styles.personalInformation}>
+                <div className={styles.personalInformation}>
                   <div className="phone">+1 647 822 0490</div><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                   <div className="email">me@raghavsharma.ca</div><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                   <div className="nearestMetro">Toronto, Ontario</div>

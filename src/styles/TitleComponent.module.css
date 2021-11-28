@@ -31,6 +31,9 @@
     max-width: 15em;
 }
 
+.right{
+    margin-top:-1.8em;
+}
 
 .right .social img{
     max-width:2em;
