@@ -1,19 +1,14 @@
 import * as React from "react"
 import PreviousExperience from "../components/resume/previousExperience"
 import TitleComponent from "../components/resume/TitleComponent"
-import ContactMe from "../components/resume/ContactMe"
 import jsonData from "../data/PreviousExperience.json"
 import "../styles/index.css"
-import image from "../images/dexter_image.png"
 
 const IndexPage = () => {
   return (
     <section className="body">
       
       <div className="two-column left-align title-component">
-        <div className="left">
-          <img src={ image } alt="personal identity thru visual - Raghav Sharma"/>
-        </div>
         <div className="right">
           <TitleComponent />
         </div>
@@ -22,7 +17,6 @@ const IndexPage = () => {
       <main>
         <div className="two-column left-align main-component">
           <div className="left">
-            <ContactMe page="index"/>
           </div>
           <div className ="right">
             <div className="previous-experience">

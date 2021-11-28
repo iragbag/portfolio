@@ -4,11 +4,13 @@ import * as styles from '../../styles/PreviousExperience.module.css'
 
 const PreviousExperience = ({ data, index }) => {
   return (
-    <a className= { styles.container } href= { data.companyURL }>
+    
         <div className={ styles.item }>
-            <div className={styles.title}> 
-                {data.position} @ { data.companyName }
-            </div>
+            <a className= { styles.container } href= { data.companyURL }>
+                <div className={styles.title}> 
+                    {data.position} @ { data.companyName }
+                </div>
+            </a>
             <div className={ styles.duration }>
                 <span className={ styles.durationStart }>{ data.startTime }</span> - <span className={styles.durationEnd}>{ data.endTime }</span>
             </div>
@@ -29,7 +31,6 @@ const PreviousExperience = ({ data, index }) => {
                 </ul>
             </div>
         </div>
-    </a>
   )
 }
 
