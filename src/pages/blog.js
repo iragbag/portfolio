@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import BlogItem from "../components/blog/BlogItem"
+
 const BlogList = ({data}) => {
     var blogList = data.allNotion.edges;
     return (
