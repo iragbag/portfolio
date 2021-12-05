@@ -18,6 +18,7 @@
     "gatsby-plugin-google-tagmanager": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-sitemap": "^5.2.0",
+    "gatsby-source-notion-api": "^0.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
