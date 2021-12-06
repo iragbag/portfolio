@@ -30,11 +30,11 @@ li:not(:last-child) {
     padding-top:1em;
 }
 
-.highlights{
+.description{
    font-weight:lighter; 
 }
 
-.projects{
+.highlights{
     font-weight:lighter;   
 }
 
@@ -46,7 +46,7 @@ li:not(:last-child) {
     font-weight:bold;
 }
 
-.projectsTitle{
+.highlightsTitle{
     font-weight:bold;
 }
 
