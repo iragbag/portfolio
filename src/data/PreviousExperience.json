@@ -6,14 +6,14 @@
        "companyURL":"https://www.shopify.com",
        "startTime":"November 2019",
        "endTime":"Present",
-       "highlights":[
+       "description":[
         "The person responsible for bringing Digital Analytics as a craft at Shopify",
         "Responsible for plan, defining and executed detailed measurement plans that allow the company to understand user behaviour across their marketing sites",
         "Extended my expertise to lead a small team of both Digital Analytics Implementors and Digital Analysts",
         "Structured and maintained the Tag Management solution",
         "\"Enablement-first\" approach of support, helping teams across Shopify self-serve all parts of Analytics process, from tracking plan generation to pulling insights and reporting. "
         ],
-       "projects":[
+       "highlights":[
         "Deploy the first iteration of cross domain tracking for Shopify's 50+ ccTLDs.",
         "Deployed Tealium across 10+ surfaces allow a consistent tagging strategy to be deployed across the board.",
         "Enhance the implementation of Google Analytics across Shopify's marketing, support and internal tool surfaces.",
@@ -24,37 +24,82 @@
         "position":"Senior Manager, Digital Analytics Implementations",
         "companyURL":"https://www.bmo.com",
         "companyName":"Bank of Montreal",
-        "startTime":"Today",
-        "endTime":"Tomorrow",
-        "highlights":["I did X","I did Y","I Did Y"],
-        "projects":[]
+        "startTime":"September 2017",
+        "endTime":"October 2019",
+        "description":[
+            "Leading and contributing to a team of Digital Analytics Implementors responsible for converting complex business requirements into elaborate measurement plan, deploying the tags and the data layer to get the right data to the right systems",
+            "Subject Matter Expert for everything Tagging and Digital Analytics data collection.",
+            "Planning and implementing the technologies for user behaviour data collection across all of BMO Digital surfaces, including (and not limited to) Marketing Websites, Mobile Apps, Application/Sales Funnels and Online Banking environments.",
+            "Mutli-solution architecture for everything Adobe Marketing Stack, including Adobe Analytics, Adobe DTM, Adobe Launch, Adobe Target, Adobe Audience Manager and core services"
+        ],
+        "highlights":[
+            "Deploy Adobe Analytics across BMO Mobile app, used by millions of BMO clients on data basis",
+            "Deploy Adobe Analytics across BMO's Online Banking environment, allowing understanding of custom behaviour while maintaining standards of data integrity and user privacy",
+            "Refactor the Adobe Analytics solution, through Adobe DTM, enabling a Event Driven Data Layer, standardizing tagging practices and minimizing the requirement of development/engineering resources"
+        ]
         },
         {
             "position":"Personalization Development Lead",
             "companyURL":"https://www.bmo.com",
             "companyName":"Bank of Montreal",
-            "startTime":"Today",
-            "endTime":"Tomorrow",
-            "highlights":["I did X","I did Y","I Did Y"],
-            "projects":[]
+            "startTime":"December 2016",
+            "endTime":"September 2017",
+            "description":[
+                "Development Lead for the team that brought Optimization and Personalization to Bank of Montreal",
+                "Subject Matter Expert for everything Adobe Target, including Experiments deployments, integrations with CMS and other tools in Adobe Marketing Cloud (especially Adobe Audience Manager)"
+            ],
+            "highlights":[
+                "Introduced both Adobe Target and the Adobe Test and Target (Legacy) to the Bank of Montreal Marketing teams.",
+                "Deploy a Experimentation framework to allow testing at scale (across all Lines of Businesses).",
+                "Deploy Adobe Audience Manager as a part of the Market Technology to enable personalization."
+            ]
         },
         {
-        "position":"Experimentation Strategist",
+        "position":"Digital Optimization Developer",
         "companyURL":"https://www.bmo.com",
         "companyName":"Bank of Montreal",
-        "startTime":"Today",
-        "endTime":"Tomorrow",
-        "highlights":["I did X","I did Y","I Did Y"],
-        "projects":[]
+        "startTime":"October 2014",
+        "endTime":"December 2016",
+        "description":[
+            "Enable experimentation strategies using Adobe Target by recommending business and technical solutions to deploying testing activities",
+            "Governing Testing workflows, including prioritization, generation experimentation ideas, deploying and monitoring campaigns."
+        ],
+        "highlights":[
+            "Implement an ongoing experimentation calendar for continueous optimization across BMO's various Line of Businesses",
+            "Config and experiment with email templates."
+        ]
         },
         {
-        "position":"Web Content Developer",
+            "position":"Web Content Developer",
+            "companyURL":"https://www.bmo.com",
+            "companyName":"Bank of Montreal",
+            "startTime":"August 2014",
+            "endTime":"October 2014",
+            "description":[
+                "Responsive website design implementation for desktop and mobile using JavaScript, CSS and HTML to develop and generate pages",
+                "Working in a corporate environment, in coordination with other developers, to edit, organize and publish the new bmo.com and bmoharris.com site.",
+                "Utilize the OpenText WEM system for content editing"
+            ],
+            "highlights":[
+                "Configure and deploy Web Experience Manager Instance for BMO Marketing websites.",
+                "Deploy Marketing Pages that are still being used as core Marketing by BMO and BMOHarris."
+            ]
+        },
+        {
+        "position":"Web Developer/PHP Problem Solver",
         "companyURL":"https://www.shopify.com",
-        "companyName":"Bank of Montreal",
-        "startTime":"Today",
-        "endTime":"Tomorrow",
-        "highlights":["I did X","I did Y","I Did Y"],
-        "projects":[]
+        "companyName":"Patchcord.ca (since dissolved)",
+        "startTime":"August 2012",
+        "endTime":"August 14",
+        "description":[
+            "Junior Web Developer at a startup focused on implementing a framework to manage supply chain for freighting company",
+            "Work with PHP, Mason and mod_perl (similar to technologies used by amazon.ca) to maintain framework to query massive data sets for analysis "
+        ],
+        "highlights":[
+            "Deploy a Survey tools that will allow businesses to setup internal feedback surveys (similar to Survey Monkey but customized for enterprises).",
+            "Utilize Geofencing to enable Manitoulin Transport to track location of their trucks in real time.",
+            "Setup Billing and Purchase Order fulfillment services for Supply Chain Management/Manitoulin Transport"
+        ]
         }
     ]
 
