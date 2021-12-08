@@ -1,0 +1,15 @@
+.container, .item, .heading{
+    font-size:auto;
+}
+
+.itemsList{
+    font-weight:lighter;
+}
+
+.container{
+    margin-bottom:1.3em
+}
+
+.heading{
+    margin-bottom:0.5em;
+}

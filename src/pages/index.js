@@ -1,7 +1,9 @@
 import * as React from "react"
-import PreviousExperience from "../components/resume/previousExperience"
+import PreviousExperience from "../components/resume/PreviousExperience"
+import SkillsComponent from "../components/resume/SkillsComponent"
 import TitleComponent from "../components/resume/TitleComponent"
 import jsonData from "../data/PreviousExperience.json"
+import skillsJSON from "../data/Skills.json"
 import "../styles/index.css"
 
 const IndexPage = () => {
@@ -17,6 +19,13 @@ const IndexPage = () => {
       <main>
         <div className="two-column left-align main-component">
           <div className="left">
+          
+          {Object.keys(skillsJSON).map(function(key, index){
+            return(
+              <SkillsComponent data = { skillsJSON[key] } heading={ key } key = { index } /> 
+              )
+            })
+          }
           </div>
           <div className ="right">
             <div className="previous-experience">
