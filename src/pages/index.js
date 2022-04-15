@@ -18,8 +18,7 @@ const IndexPage = () => {
       </div>
       <hr className="horizontal-line"/>
       <main>
-        <div className="two-column left-align main-component">
-          <div className="left">
+        <div className="main-component">
           <div className="skills">
             {
              Object.keys(skillsJSON).map(function(key, index){
@@ -38,15 +37,11 @@ const IndexPage = () => {
               })
             }
             </div>
-          </div>
-          <div className ="right">
             <div className="previous-experience">
               {previousExperienceData.data.map((data, index) => 
                 <PreviousExperience data = { data } key={ index } />
               )}
             </div>
-          </div>
-           
         </div>
       </main>
       <footer>
