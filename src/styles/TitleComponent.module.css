@@ -1,41 +1,57 @@
-.container{
-    text-align: left;
-    display:flex;
-    margin:0 auto;
-    max-width: 75%;
-    
+@media only screen and (min-device-width: 1024px) {
+
+    .container{
+        display:grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto; 
+        grid-template-areas:
+        "image name"
+        "image personalInformation"
+        "image socialInformation"
+    }
+
+    .container > *{
+        align-self: center;
+        font-size: 1.2em;
+    }
+
+    .image{
+        grid-area: image;
+    }
+    .image img{
+        max-width:10em;
+    }
+
+    .name{
+        grid-area: name;
+    }
+
+    .name .bigName{
+        font-size: 3em;
+        margin-bottom:0.1em;
+        margin-top:0.2em
+    }
+
+    .personalInformation{
+        grid-area: personalInformation;
+    }
+
+
+    .personalInformation > *{
+        float:left
+    }
+
+    .socialInformation{
+        grid-area: socialInformation;
+    }
+
+
+    .socialInformation img{
+        max-height:1.5em;
+        max-width:1.5em;
+        margin-right: 0.5em;
+    }
 }
+@media only screen and (max-device-width: 1024px) {
 
-.bigName {
-    font-size:4em;
-    margin-bottom:10px;
-}
-
-.personalInformation{
-    margin:1em 0;
-    display: flex;
-}
-
-
-
-.verticallyCenter {
-    display: flex;
-    flex-direction: column ;
-}
-
-.left {
-    display:flex;
-    align-items: center;
-}
-.left img{
-    max-width: 15em;
-}
-
-.right{
-    margin-top:-1.8em;
-}
-
-.right .social img{
-    max-width:2em;
-    margin:0 0.5em;
 }

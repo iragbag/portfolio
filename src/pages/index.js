@@ -12,7 +12,7 @@ const IndexPage = () => {
     <section className="body">
       
       <div className="two-column left-align title-component">
-        <div className="right">
+        <div className="titleComponent">
           <TitleComponent />
         </div>
       </div>
