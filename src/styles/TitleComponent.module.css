@@ -31,6 +31,11 @@
         grid-area: personalInformation;
     }
 
+    .personalInformation img{
+        max-width:1em;
+        max-height:1em;
+        margin-right:.5em;
+    }
 
     .personalInformation > *{
         float:left
@@ -69,10 +74,24 @@
         grid-area: name;
         margin-bottom:1em;
     }
+
+    .titleLine{
+        font-size:1.2em;
+    }
     .personalInformation{
         grid-area: personalInformation;
         text-align: center;
         margin-bottom:1em
+    }
+
+    .personalInformation img{
+        max-width:1em;
+        max-height:1em;
+        margin-right:.5em;
+    }
+
+    .personalInformation > div{
+        margin-bottom:0.5em;
     }
 
     .socialInformation{
@@ -80,7 +99,6 @@
         margin:0 auto;
     }
     
-
     .image img{
         max-width:12em;
     }
@@ -90,9 +108,9 @@
         font-size: 3em;
     }
     .socialInformation img{
-        max-height:1.5em;
-        max-width:1.5em;
-        margin-right: 0.5em;
+        max-height:4em;
+        max-width:4em;
+        margin:0 1em;
     }
     .mobileHide{
         display:none;

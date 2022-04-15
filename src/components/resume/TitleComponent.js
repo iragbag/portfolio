@@ -5,6 +5,9 @@ import imageLinkedin from "../../images/linkedin.png"
 import imageInstagram from "../../images/instagram.png"
 import imageTwitter from "../../images/twitter.png"
 import image from "../../images/main_image_avatar.png"
+import imageLocation from "../../images/location.png"
+import imageEmail from "../../images/email.png"
+import imageTelephone from "../../images/telephone.png"
 
 const TitleComponent = () => {
   return (
@@ -20,9 +23,20 @@ const TitleComponent = () => {
           </div>
       </div>
       <div className={styles.personalInformation}>
-            <div className="phone">+1 647 822 0490</div><span class={ styles.mobileHide } >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <div className="email">iraghavsharma@proton.me</div><span class={ styles.mobileHide }>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <div className="nearestMetro">Toronto, Ontario</div>
+            <div className="phone">
+              <img src={imageTelephone} alt="personal phone - +1.647.822.0490" />
+              <span>+1 647 822 0490</span>
+            </div>
+            <span class={ styles.mobileHide } >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <div className="email">
+              <img src={imageEmail} alt="personal email - iraghavsharma@proton.me" />
+              <span>iraghavsharma@proton.me</span>
+            </div>
+            <span class={ styles.mobileHide }>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <div className="nearestMetro">
+              <img src={imageLocation} alt="current Location - Toronto" />
+              <span>Toronto, Ontario</span>
+            </div>
       </div>
       <div className={ styles.socialInformation }>
               <a href="https://ca.linkedin.com/in/raghav-sharma-80633452" className="linkedIn"><img src={ imageLinkedin } alt="Connect with me on LinkedIn"/></a>
