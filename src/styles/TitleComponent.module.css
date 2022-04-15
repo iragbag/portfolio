@@ -10,11 +10,6 @@
         "image socialInformation"
     }
 
-    .container > *{
-        align-self: center;
-        font-size: 1.2em;
-    }
-
     .image{
         grid-area: image;
     }
@@ -52,6 +47,54 @@
         margin-right: 0.5em;
     }
 }
-@media only screen and (max-device-width: 1024px) {
 
+
+@media only screen and (max-device-width: 1024px) {
+    .container{
+        text-align:center;
+        display:grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto; 
+        grid-template-areas:
+        "image"
+        "name"
+        "personalInformation"
+        "socialInformation"
+    }
+
+    .image{
+        grid-area: image;
+    }
+    .name{
+        grid-area: name;
+        margin-bottom:1em;
+    }
+    .personalInformation{
+        grid-area: personalInformation;
+        text-align: center;
+        margin-bottom:1em
+    }
+
+    .socialInformation{
+        grid-area: socialInformation;
+        margin:0 auto;
+    }
+    
+
+    .image img{
+        max-width:12em;
+    }
+
+    .name h1{
+        margin:0px auto .3em;
+        font-size: 3em;
+    }
+    .socialInformation img{
+        max-height:1.5em;
+        max-width:1.5em;
+        margin-right: 0.5em;
+    }
+    .mobileHide{
+        display:none;
+    }
 }

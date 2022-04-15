@@ -20,8 +20,8 @@ const TitleComponent = () => {
           </div>
       </div>
       <div className={styles.personalInformation}>
-            <div className="phone">+1 647 822 0490</div><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <div className="email">iraghavsharma@proton.me</div><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <div className="phone">+1 647 822 0490</div><span class={ styles.mobileHide } >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+            <div className="email">iraghavsharma@proton.me</div><span class={ styles.mobileHide }>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
             <div className="nearestMetro">Toronto, Ontario</div>
       </div>
       <div className={ styles.socialInformation }>
