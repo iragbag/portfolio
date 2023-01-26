@@ -23,10 +23,6 @@ const TitleComponent = () => {
           </div>
       </div>
       <div className={styles.personalInformation}>
-            <div className="phone">
-              <img src={imageTelephone} alt="personal phone - +1.647.822.0490" />
-              <span>+1 647 822 0490</span>
-            </div>
             <span class={ styles.mobileHide } >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
             <div className="email">
               <img src={imageEmail} alt="personal email - iraghavsharma@proton.me" />
