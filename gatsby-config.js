@@ -7,8 +7,8 @@ module.exports = {
     {
       resolve: `gatsby-source-notion-api`,
       options: {
-        token: `secret_LcuM9uj0tVejQSlj56ejDtRhAseFXLv4ZaWjigqmV7q`,
-        databaseId: `122cd97ec5da430dbf34df91c8797100`,
+        token: `secret_l2ZV5iruS1kYT7Twv5X2wGSx63XgQJi81ybmx4pbEAZ`,
+        databaseId: `e1521520d14248c6822c02018efede6e`,
         propsToFrontmatter: true,
         lowerTitleLevel: true,
       },
