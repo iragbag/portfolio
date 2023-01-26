@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Resume",
+    siteUrl: "https://www.raghavsharma.ca",
+    title: "Resume and Blog",
   },
   plugins: [
     {
