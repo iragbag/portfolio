@@ -12,7 +12,7 @@ const BlogList = ({data}) => {
         </div>
   )
 }
-export const query = graphql`
+/* export const query = graphql`
         query getBlogMetaData {
             allNotion {
             edges {
@@ -22,5 +22,5 @@ export const query = graphql`
             }
         }
     }
-`
+`*/
 export default BlogList

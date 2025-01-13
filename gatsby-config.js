@@ -4,7 +4,7 @@ module.exports = {
     title: "Resume and Blog",
   },
   plugins: [
-    {
+    /*{
       resolve: `gatsby-source-notion-api`,
       options: {
         token: `secret_l2ZV5iruS1kYT7Twv5X2wGSx63XgQJi81ybmx4pbEAZ`,
@@ -12,7 +12,7 @@ module.exports = {
         propsToFrontmatter: true,
         lowerTitleLevel: true,
       },
-    },
+    },*/
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
