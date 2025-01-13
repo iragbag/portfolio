@@ -1,3 +1,6 @@
 node_modules/
 .cache/
 public
+src/components/blog/BlogItem.js
+src/pages/blog.js
+

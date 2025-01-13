@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import BlogItem from "../components/blog/BlogItem"
 
 const BlogList = ({data}) => {
+/*    
     var blogList = data.allNotion.edges;
     return (
         <div>
@@ -11,8 +12,9 @@ const BlogList = ({data}) => {
             )}
         </div>
   )
+*/        
 }
-/* export const query = graphql`
+/*export const query = graphql`
         query getBlogMetaData {
             allNotion {
             edges {
