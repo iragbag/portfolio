@@ -3,12 +3,12 @@ import * as React from 'react'
 import * as styles from '../../styles/PreviousExperience.module.css'
 
 const PreviousExperience = ({ data, index }) => {
+    console.log(data)
   return (
-    
         <div className={ styles.item }>
             <a className= { styles.container } href= { data.companyURL }>
-                <div className={styles.title}> 
-                    {data.position} @ { data.companyName }
+                <div className={styles.title}>
+                    <span>{data.position} @ { data.companyName }</span>
                 </div>
             </a>
             <div className={ styles.duration }>

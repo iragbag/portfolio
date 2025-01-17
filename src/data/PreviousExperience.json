@@ -4,26 +4,26 @@
         "position":"Senior Analytics Engineer",
         "companyName":"Lululemon",
         "companyURL":"https://www.lululemon.com",
+        "companyLogo":"../images/lululemon-logo.png",
         "startTime":"March 2023",
         "endTime":"Present",
         "description":[
         "Design and execute Adobe Analytics and Google Analytics 4 (Firebase) Implementations on Lululemon’s North America iOS App.",
         "Bringing technical expertise to building the operations for the Product Analytics team.",
-        "Enabled analyses of Product features and Experimentation strategy.",
-        "Build the Analytics Architecture to allow for faster and more efficient tagging execution while collecting high-quality data.",
-        "Mentoring junior Analytics Engineers to think about solutions on scales."
+        "Enabled analyses of Product features and Experimentation strategy."
+        
         ],
        "highlights":[
-        "Deploy the first iteration of cross domain tracking for Shopify's 50+ ccTLDs.",
-        "Deployed Tealium across 10+ surfaces allow a consistent tagging strategy to be deployed across the board.",
-        "Enhance the implementation of Google Analytics across Shopify's marketing, support and internal tool surfaces.",
-        "Lay the foundations of transition to an enterprise wide Google Analytics 4."
+        "Build the Analytics Architecture to allow for faster and more efficient tagging execution while collecting high-quality data.",
+        "Mentoring junior Analytics Engineers to think about solutions on scales.",
+        "Architecture the solution and supported the transition of data collection from Adobe Analytics to Google Analytics 4, as a part of stack modernization"
        ]
        }, 
        {
        "position":"Digital Analytics Manager (Lead)",
        "companyName":"Shopify",
        "companyURL":"https://www.shopify.com",
+       "companyLogo":"../images/shopify-logo.svg",
        "startTime":"November 2019",
        "endTime":"February 2023",
        "description":[
@@ -43,6 +43,7 @@
        {
         "position":"Senior Manager, Digital Analytics Implementations",
         "companyURL":"https://www.bmo.com",
+        "companyLogo":"../images/bmo-logo.svg",
         "companyName":"Bank of Montreal",
         "startTime":"September 2017",
         "endTime":"October 2019",
@@ -62,6 +63,7 @@
             "position":"Personalization Development Lead",
             "companyURL":"https://www.bmo.com",
             "companyName":"Bank of Montreal",
+            "companyLogo":"../images/bmo-logo.svg",
             "startTime":"December 2016",
             "endTime":"September 2017",
             "description":[
@@ -77,6 +79,7 @@
         {
         "position":"Digital Optimization Developer",
         "companyURL":"https://www.bmo.com",
+        "companyLogo":"../images/bmo-logo.svg",
         "companyName":"Bank of Montreal",
         "startTime":"October 2014",
         "endTime":"December 2016",
@@ -92,6 +95,7 @@
         {
             "position":"Web Content Developer",
             "companyURL":"https://www.bmo.com",
+            "companyLogo":"../images/bmo-logo.svg",
             "companyName":"Bank of Montreal",
             "startTime":"August 2014",
             "endTime":"October 2014",
@@ -107,6 +111,7 @@
         },
         {
         "position":"Web Developer/PHP Problem Solver",
+        "companyLogo":"../images/bmo-logo.svg",
         "companyURL":"https://www.shopify.com",
         "companyName":"Patchcord.ca (since dissolved)",
         "startTime":"August 2012",
