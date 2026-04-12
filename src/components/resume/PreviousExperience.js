@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bmoLogo from '../../images/bmo-logo.svg'
 import lululemonLogo from '../../images/lululemon-logo.png'
 import shopifyLogo from '../../images/shopify-logo.svg'
@@ -10,8 +10,10 @@ const logoMap = {
 }
 
 const PreviousExperience = ({ data }) => {
+  const [expanded, setExpanded] = useState(false)
   const logoFile = data.companyLogo?.split('/').pop()
   const logoSrc = logoFile ? logoMap[logoFile] : null
+  const contentClasses = `experience-content ${expanded ? 'expanded' : 'collapsed'}`
 
   return (
     <div className="experience-card">
@@ -45,7 +47,7 @@ const PreviousExperience = ({ data }) => {
         </div>
       </div>
 
-      <div className="experience-content">
+      <div className={contentClasses}>
         <div className="experience-section">
           <h4>Key Responsibilities</h4>
           <ul className="experience-list">
@@ -64,6 +66,15 @@ const PreviousExperience = ({ data }) => {
           </ul>
         </div>
       </div>
+
+      <button
+        type="button"
+        className="expand-toggle"
+        onClick={() => setExpanded((prev) => !prev)}
+        aria-expanded={expanded}
+      >
+        {expanded ? 'Hide details ▲' : 'Show details ▼'}
+      </button>
     </div>
   )
 }
