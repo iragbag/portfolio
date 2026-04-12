@@ -9,6 +9,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
+    "check": "node scripts/check-secrets.js",
+    "prebuild": "npm run check",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
