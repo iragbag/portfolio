@@ -25,22 +25,25 @@ const LazyExperience = ({ data }) => {
   }, [])
 
   return (
-    <div ref={containerRef} className="lazy-experience-slot">
-      {isVisible ? (
-        <Suspense
-          fallback={
-            <div className="experience-placeholder">
-              Loading {data.companyName}...
-            </div>
-          }
-        >
-          <PreviousExperience data={data} />
-        </Suspense>
-      ) : (
-        <div className="experience-placeholder">
-          Loading {data.companyName}...
-        </div>
-      )}
+    <div ref={containerRef} className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        {isVisible ? (
+          <Suspense
+            fallback={
+              <div className="experience-placeholder">
+                Loading {data.companyName}...
+              </div>
+            }
+          >
+            <PreviousExperience data={data} />
+          </Suspense>
+        ) : (
+          <div className="experience-placeholder">
+            Loading {data.companyName}...
+          </div>
+        )}
+      </div>
     </div>
   )
 }

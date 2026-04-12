@@ -74,6 +74,25 @@ const IndexPage = () => {
       <HeroBanner theme={theme} onToggleTheme={toggleTheme} />
 
       <main className="main-component">
+        <section className="previous-experience">
+          <div className="section-header">
+            <h2>Past Experience</h2>
+            <p>
+              Roles load lazily as you scroll, keeping the resume fast and
+              focused.
+            </p>
+          </div>
+          <div className="timeline">
+            {previousExperienceData.data.map((experience, index) => (
+              <LazyExperience
+                key={`${experience.companyName}-${experience.startTime}-${index}`}
+                data={experience}
+                index={index}
+              />
+            ))}
+          </div>
+        </section>
+
         <section className="tools-section">
           <div className="section-header">
             <h2>Tools & Skills</h2>
@@ -98,34 +117,6 @@ const IndexPage = () => {
                   ))}
                 </div>
               </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="qualifications">
-          <div className="section-header">
-            <h2>Qualifications</h2>
-            <p>
-              Certifications, professional highlights, and a deeper look at
-              experience across analytics and tagging.</p>
-          </div>
-          {renderSkillsSection(qualificationsData)}
-        </section>
-
-        <section className="previous-experience">
-          <div className="section-header">
-            <h2>Past Experience</h2>
-            <p>
-              Roles load lazily as you scroll, keeping the resume fast and
-              focused.
-            </p>
-          </div>
-          <div className="experience-grid">
-            {previousExperienceData.data.map((experience, index) => (
-              <LazyExperience
-                key={`${experience.companyName}-${experience.startTime}-${index}`}
-                data={experience}
-              />
             ))}
           </div>
         </section>
